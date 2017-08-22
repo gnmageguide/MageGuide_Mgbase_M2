@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MageGuide_Mgbase::MageGuide" title="MageGuide" module="MageGuide_Mgbase" sortOrder="199" resource="MageGuide_Mgbase::MageGuide"/>
+        <add
+                id="MageGuide_Mgbase::MageGuide_Mgbase"
+                title="MageGuide Extensions"
+                module="MageGuide_Mgbase"
+                action="adminhtml/system_config/edit/section/mageguide_mgbase/"
+                sortOrder="0"
+                parent="MageGuide_Mgbase::MageGuide"
+                resource="MageGuide_Mgbase::MageGuide_Mgbase"
+        />
+    </menu>
+</config>

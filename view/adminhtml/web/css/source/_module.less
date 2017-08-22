@@ -1,0 +1,98 @@
+@mageguide_store_color: #FFF;
+
+#nav {
+    li.item-mageguide {
+        > a {
+            &:before {
+                content: '';
+                background-image: url("../MageGuide_Mgbase/images/MG_logo_white.svg");
+                background-repeat: no-repeat;
+                background-size: 70px;
+                background-position: center;
+                height: 50px;
+            }
+            > span {
+                font-size: 0px;
+            }
+        }
+
+        .submenu {
+            .submenu-title {
+                background-image: url(../MageGuide_Mgbase/images/MageGuide_logo_white.svg);
+                background-repeat: no-repeat;
+                background-position: 0;
+                height: 30px;
+                font-size: 0px;
+                margin-bottom: 30px;
+                background-size: 100%;
+            }
+            .item-mageguide-documentation {
+                a {
+                    &:after {
+                        content: '\e60d';
+                        font-family: 'Admin Icons';
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.config-nav {
+    .item-mageguide-documentation {
+        a {
+            &:after {
+                content: '\e60d';
+                font-family: 'Admin Icons';
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .mageguide-tab {
+        .admin__page-nav-title {
+            strong {margin-left: 50px;}
+            &:before {
+                content: '';
+                background-image: url("../MageGuide_Mgbase/images/MG_logo.svg");
+                background-repeat: no-repeat;
+                background-size: 46px;
+                background-position: 0px 0px;
+                height: 40px;
+                position: absolute;
+                width: 50px;
+                top: 4px;
+            }
+        }
+    }
+}
+
+#mageguide_store {
+    border: none;
+    height: 1500px;
+}
+
+.section-config {
+    &.mageguide-recommended-header {
+        .admin__collapsible-block {
+            display: block !important;
+            a {
+                font-weight: normal;
+                text-transform: uppercase;
+                &:before {
+                    content: '' !important;
+                }
+            }
+            table {
+                td.label {
+                    display: none;
+                }
+                td.value {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
