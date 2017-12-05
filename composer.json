@@ -2,7 +2,6 @@
     "name": "mageguide/mgbase",
     "description": "Base for All MageGuide Extensions",
     "require": {
-        "php": "~7.0.0",
         "magento/framework": "100.*|101.*",
         "magento/module-admin-notification": "100.*|101.*"
     },
